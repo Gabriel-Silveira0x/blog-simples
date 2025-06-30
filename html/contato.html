@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Página de Contato" />
+    <title>Meu Blog Tech</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+    </style>
+    <link rel="stylesheet" href="/style/style.css" />
+  </head>
+  <body>
+    <!-- ===========================
+         HEADER DO SITE
+    ============================ -->
+    <header>
+      <h1>Meu Blog Tech</h1>
+      <nav>
+        <ul>
+          <li>
+            <a class="nav-text" href="/html/index.html">Home</a>
+          </li>
+          <li>
+            <a class="nav-text" href="/html/post.html">Posts</a>
+          </li>
+          <li>
+            <a class="nav-text" href="/html/sobre.html">Sobre</a>
+          </li>
+          <li>
+            <a class="nav-text ativa" href="/html/contato.html">Contato</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- ===========================
+         CONTEÚDO PRINCIPAL DO SITE
+    ============================ -->
+    <main class="container-main-contato">
+      <h2>Entre em contato</h2>
+      <form id="formContato">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required />
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required />
+        <label for="mensagem">Mensagem:</label>
+        <textarea id="mensagem" name="mensagem" required></textarea>
+        <button type="submit">Enviar</button>
+      </form>
+    </main>
+
+    <!-- ===========================
+         FOOTER DO SITE
+    ============================ -->
+    <footer class="container-footer">
+      <div class="container-row">
+        <section class="row-footer">
+          <div class="sobre">
+            <p>meu blog tech</p>
+            <p>
+              Fundada no ano de 2015, a blog tech veio com o compromisso de
+              entregar conteúdo de qualidade e de forma gratuita.
+            </p>
+            <p>
+              Atualmente entregamos artigos sobre programação front-end, como
+              dicas e tutoriais.
+            </p>
+          </div>
+        </section>
+        <section class="row-footer">
+          <div class="endereco">
+            <p>endereço</p>
+            <p>Rua: não sei o que</p>
+            <p>Bairro: centro</p>
+            <p>Cidade: Uma</p>
+            <p>Cep: 00000-000</p>
+          </div>
+        </section>
+        <section class="row-footer">
+          <div class="contato">
+            <p>contato</p>
+            <p>(55) 55555 - 5555</p>
+            <p>(99) 99999- 9999</p>
+            <p>suporte@meublogtech.com.br</p>
+          </div>
+        </section>
+      </div>
+      <p>&copy; 2025 Meu Blog Tech</p>
+    </footer>
+    <script src="/script/script.js"></script>
+  </body>
+</html>
